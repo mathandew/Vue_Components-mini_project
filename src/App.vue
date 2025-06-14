@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <h1>Day 1: Vue Fundamentals</h1>
+    <h1>Components</h1>
     <Counter />
     <ListManager />
   </div>
