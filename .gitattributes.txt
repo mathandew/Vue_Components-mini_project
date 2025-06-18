@@ -1,0 +1,13 @@
+# Force Vue and JS as main languages
+*.vue linguist-language=JavaScript
+*.js linguist-language=JavaScript
+
+# Exclude styles and assets from language calculation
+/public/** linguist-vendored
+/node_modules/** linguist-vendored
+/dist/** linguist-vendored
+/assets/** linguist-vendored
+*.css linguist-vendored
+
+# Normalize line endings
+* text=auto eol=lf
