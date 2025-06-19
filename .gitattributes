@@ -1,0 +1,12 @@
+# Force Vue and JS to be detected as main languages
+*.vue linguist-language=JavaScript
+*.js linguist-language=JavaScript
+
+# Exclude CSS/static files from stats
+/public/** linguist-vendored
+/node_modules/** linguist-vendored
+/dist/** linguist-vendored
+/assets/** linguist-vendored
+*.css linguist-vendored
+
+* text=auto eol=lf
